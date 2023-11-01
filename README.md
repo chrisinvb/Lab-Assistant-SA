@@ -70,7 +70,10 @@ The script is built as a TamperMonkey script. [TamperMonkey](https://www.tamperm
    * Ideally Lab Assistant will handle this, but as it's still a WIP this is the most likely area to still have some bugs.
 2. If you're not sure if something worked, check the blockchain for errors.
 3. If you're pretty sure something broke, check the browser console for errors.
-4. Visit SLY's discord or reach out to justgroove.
+4. If a fleet is getting stuck (mining, transport or scanning), the issue is typically an error or the Solana RPC endpoint is lagging.
+   * Check a block explorer for transactions. For example when docking, you should see the IdleToStarbase (that's the dock) followed by some other transactions.
+   * Check your browser's console. Most browsers you can press Ctrl+shift+I or F12 to open dev tools, then look for the console tab.
+5. Visit SLY's discord or reach out to justgroove.
 
 #### Regular usage
 1. Launch the game as usual
